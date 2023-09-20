@@ -4,8 +4,9 @@ import './Weather.css';
 function Weather() {
   const [weatherData, setWeatherData] = useState({});
   const [city, setCity] = useState('');
-  const apiKey = '056dc6a709945e7134c7ef18dcbd4352';
-
+  const apiKey = (process.env.REACT_API_KEY);
+  //  alert(apiKey);
+  
   useEffect(() => {
     if (city) {
       fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
@@ -37,7 +38,7 @@ function Weather() {
           <p>Temperature: {(weatherData.main.temp-273.15).toFixed(2)}°C</p>
           <p>Humidity: {weatherData.main.humidity}%</p>
           <p>Wind Speed: {weatherData.wind.speed} m/s</p>
-         
+        
         </div>
       )}
     </div>
