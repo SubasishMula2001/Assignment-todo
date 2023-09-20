@@ -4,7 +4,6 @@ import './Weather.css';
 function Weather() {
   const [weatherData, setWeatherData] = useState({});
   const [city, setCity] = useState('');
-  
   const apiKey = '056dc6a709945e7134c7ef18dcbd4352';
 
   useEffect(() => {
