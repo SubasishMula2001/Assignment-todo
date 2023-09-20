@@ -28,7 +28,7 @@ function Calculator() {
         onChange={handleInputChange}
       />
       <button onClick={handleCalculate}>Calculate</button>
-      <div>Result: {result}</div>
+      <div className='calculator-result'>Result: {result}</div>
     </div>
   );
 }

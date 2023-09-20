@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Signup from './components/SignUp/Signup';
-import ProfileIcon from './components/ProfileIcon';
-import TaskList from './components/TaskList';
+import ProfileIcon from './components/ProfileIcon/ProfileIcon';
+import TaskList from './components/TaskList/TaskList';
 import Weather from './components/Weather/Weather';
 import Calculator from './components/Calculator/Calculator';
 import Login from './components/Login/Login';
