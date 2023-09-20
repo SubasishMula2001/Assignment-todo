@@ -37,10 +37,10 @@ function Weather() {
       />
       {weatherData.main && (
         <div>
-          <p>City: {weatherData.name}</p>
-          <p>Temperature: {(weatherData.main.temp-273.15).toFixed(2)}°C</p>
-          <p>Humidity: {weatherData.main.humidity}%</p>
-          <p>Wind Speed: {weatherData.wind.speed} m/s</p>
+          <p className='weather-title'>City: {weatherData.name}</p>
+          <p className='weather-info'>Temperature: {(weatherData.main.temp-273.15).toFixed(2)}°C</p>
+          <p className='weather-info'>Humidity: {weatherData.main.humidity}%</p>
+          <p className='weather-info'>Wind Speed: {weatherData.wind.speed} m/s</p>
         
         </div>
       )}

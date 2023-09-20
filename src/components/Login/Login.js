@@ -13,7 +13,7 @@ function Login({ onLogin }) {
       onLogin(true);
        alert('Succesfully Login,Please click on taskboard button to add task');
     } else {
-      alert('Invalid credentials. Please try again.');
+      alert('Invalid credentials. Please check your deatils.');
     }
   };
 

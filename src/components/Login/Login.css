@@ -1,4 +1,3 @@
-/* Login.css */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -46,10 +45,4 @@ body {
 
 .login-container button:hover {
     background-color: #0056b3;
-}
-
-.error-message {
-    color: red;
-    text-align: center;
-    margin-top: 10px;
 }

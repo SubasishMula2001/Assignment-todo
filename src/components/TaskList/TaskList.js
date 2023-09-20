@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './TaskList.css';
 
 function TaskList() {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState([]); // tasks as empty array
   const [taskInput, setTaskInput] = useState('');
 
   useEffect(() => {
