@@ -16,7 +16,7 @@ function ProfileIcon() {
     <div className='profile-icon-container'>
       <h2>Profile Icon</h2>
       <img  src={profileUrl}
-        alt="Image Random"
+        alt="Profile Img"
         style={{  width: '250px', height: '250px' }} className='profile-image' />
     </div>
   );
