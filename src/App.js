@@ -20,13 +20,12 @@ function App() {
       <div>
         <nav>
           <ul>
-            <li>
               <Link to="/" className="button task-board-button">Task Board</Link>
               <Link to="/login" className="button weather-button">Login</Link>
               <Link to="/signup" className="button task-board-button">Sign Up</Link>
                <Link to="/weather" className="button weather-button">Weather</Link>
                <Link to="/calculator" className="button calculator-button">Calculator</Link>
-            </li>
+               
           </ul>
         </nav>
 
