@@ -4,9 +4,12 @@ import './Weather.css';
 function Weather() {
   const [weatherData, setWeatherData] = useState({});
   const [city, setCity] = useState('');
-  const apiKey = (process.env.REACT_API_KEY);
+ 
+  const apiKey ='056dc6a709945e7134c7ef18dcbd4352';
+
+  // const apiKey = (process.env.REACT_API_KEY);
   //  alert(apiKey);
-  
+
   useEffect(() => {
     if (city) {
       fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
