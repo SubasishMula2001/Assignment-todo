@@ -28,7 +28,7 @@ function Weather() {
 
   return (
     <div className='weather-container'>
-      <h2>Weather Information</h2>
+      <h2><marquee width="60%" direction="left" height="100px">Weather Information</marquee></h2>
       <input
         type="text"
         placeholder="Enter City"
