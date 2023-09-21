@@ -11,7 +11,7 @@ function Signup() {
       // Store user data in local storage
       const userData = { username, password };
       localStorage.setItem('user', JSON.stringify(userData));
-      alert('Signup successful!');
+      alert('Signup successful! \n please login to use taskboard');
     } else {
       alert('Please fill in both fields.');
     }

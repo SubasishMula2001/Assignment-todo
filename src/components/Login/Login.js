@@ -11,7 +11,7 @@ function Login({ onLogin }) {
 
     if (storedUser && storedUser.username === username && storedUser.password === password) {
       onLogin(true);
-       alert('Succesfully Login,Please click on taskboard button to add task');
+       alert('Succesfully Login \n Please click on taskboard button to add task');
     } else {
       alert('Invalid credentials. Please check your deatils.');
     }
